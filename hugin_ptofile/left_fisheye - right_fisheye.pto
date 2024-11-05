@@ -1,0 +1,74 @@
+# hugin project file
+#hugin_ptoversion 2
+p f2 w1944 h972 v360  k0 E0.128942 R0 n"TIFF_m c:LZW r:CROP"
+m i0
+
+# image lines
+#-hugin  cropFactor=7.6
+i w1520 h1520 f2 v210.627402248555 Ra-0.773880660533905 Rb0.282591789960861 Rc-0.900835752487183 Rd-1.23824727535248 Re-0.153675630688667 Eev0 Er1 Eb1 r-2.31258405110029 p-1.03949596925098 y-72.0770471505879 TrX0 TrY0 TrZ0 Tpy0 Tpp0 j0 a0 b0 c0 d-10.8024140499825 e8.93014033718215 g0 t0 Va1 Vb0 Vc0 Vd0 Vx0 Vy0  Vm5 n"C:\Users\gby\Desktop\codeArea\fishcampro\v3\left_fisheye.jpg"
+#-hugin  cropFactor=7.6
+i w1520 h1520 f2 v=0 Ra=0 Rb=0 Rc=0 Rd=0 Re=0 Eev0.257883560395677 Er1.04511628806482 Eb0.992191313822991 r0.261795904191419 p-0.0307309248772816 y105.981070489337 TrX0 TrY0 TrZ0 Tpy0 Tpp0 j0 a=0 b=0 c=0 d=0 e=0 g=0 t=0 Va=0 Vb=0 Vc=0 Vd=0 Vx=0 Vy=0  Vm5 n"C:\Users\gby\Desktop\codeArea\fishcampro\v3\right_fisheye.jpg"
+
+
+# specify variables that should be optimized
+v Ra0
+v Rb0
+v Rc0
+v Rd0
+v Re0
+v r0
+v p0
+v Vb0
+v Vc0
+v Vd0
+v Eev1
+v r1
+v p1
+v y1
+v
+
+
+# control points
+c n0 N1 x80.7114632305739 y685.558057461311 X1385.9990952615 Y712.046846795365 t0
+c n0 N1 x87.5907462739966 y738.147801424517 X1399.46403067283 Y761.023814989503 t0
+c n0 N1 x97.0995172897201 y711.711225005851 X1408.02230358434 Y735.36294422242 t0
+c n0 N1 x95.537208210429 y742.737041216451 X1408.10876884446 Y765.547726913577 t0
+c n0 N1 x105.928375631589 y747.025652146572 X1418.45854226769 Y769.593424311913 t0
+c n0 N1 x112.616686842121 y732.778408347584 X1425.31591332323 Y755.349661214334 t0
+c n0 N1 x111.544766377894 y751.868848151015 X1424.43560424267 Y774.698186823582 t0
+c n0 N1 x108.280807488869 y770.385664163166 X1419.54107700782 Y796.172842841282 t0
+c n1 N1 x50.1368065838814 y628.476910859049 X54.4889333970887 Y927.367599502226 t1
+c n0 N0 x1234.78490833254 y597.681970193601 X1231.39094621485 Y920.835197769724 t1
+c n0 N0 x340.099388492454 y425.614574935468 X288.565876996679 Y996.83985381609 t1
+c n0 N0 x574.30798323084 y936.395995817762 X602.588233559883 Y1116.71964240025 t1
+
+#hugin_optimizeReferenceImage 0
+#hugin_blender enblend
+#hugin_remapper nona
+#hugin_enblendOptions 
+#hugin_enfuseOptions 
+#hugin_hdrmergeOptions -m avg -c
+#hugin_verdandiOptions 
+#hugin_edgeFillMode 0
+#hugin_edgeFillKeepInput false
+#hugin_outputLDRBlended true
+#hugin_outputLDRLayers false
+#hugin_outputLDRExposureRemapped false
+#hugin_outputLDRExposureLayers false
+#hugin_outputLDRExposureBlended false
+#hugin_outputLDRStacks false
+#hugin_outputLDRExposureLayersFused false
+#hugin_outputHDRBlended false
+#hugin_outputHDRLayers false
+#hugin_outputHDRStacks false
+#hugin_outputLayersCompression LZW
+#hugin_outputImageType jpg
+#hugin_outputImageTypeCompression LZW
+#hugin_outputJPEGQuality 90
+#hugin_outputImageTypeHDR exr
+#hugin_outputImageTypeHDRCompression LZW
+#hugin_outputStacksMinOverlap 0.7
+#hugin_outputLayersExposureDiff 0.5
+#hugin_outputRangeCompression 0
+#hugin_optimizerMasterSwitch 1
+#hugin_optimizerPhotoMasterSwitch 21
