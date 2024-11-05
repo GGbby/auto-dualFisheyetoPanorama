@@ -56,5 +56,6 @@ pip install -r requirements.txt
 - 使用環境：
   - python 3.11.7 (in conda //不影響)
   - no other else
+- 確認你的```.pto```檔以及**fisheye_image**存在且路徑正確
 - 單純運行```main.py```
 - 有需要注意main.py的開頭的文件位置，有用備註標示每個辨識分別是什麼，請注意directory的位置以及.pto的位置宣告是否正確

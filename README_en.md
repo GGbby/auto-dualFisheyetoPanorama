@@ -55,6 +55,7 @@ The following tools were used during development. For simply running the program
 - Environment:
   - Python 3.11.7 (using conda is optional and doesn't affect functionality)
   - No other requirements
+- make sure your```.pto```and the fisheye images' location information is correct
 - Run main.py
 
 > *** Note: At the beginning of main.py, there are variables to specify directory paths and the location of the .pto file. Please verify that the directory paths and the .pto template file are correctly specified.***
