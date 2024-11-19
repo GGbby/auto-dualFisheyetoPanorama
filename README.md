@@ -46,13 +46,14 @@ pip install -r requirements.txt
 ```
 
 ### 外部工具
-以下能容是在製作時使用的工具，不確定若只是運行的話是否需要，Hugin應該需要，用於圖像拼接及元數據處理：
+以下內容是在製作時使用的工具，不確定若只是運行的話是否需要，Hugin應該需要，用於圖像拼接及元數據處理：
 
-- Hugin 工具套件：包括 autooptimiser、nona、enblend 等指令。我個人在開發時是在windows使用Hugin GUI的完整內容在製作的。
+- Hugin 工具套件(Hugin官網下載)：包括 autooptimiser、nona、enblend 等指令。我個人在開發時是在windows使用Hugin GUI的完整內容在製作的。
 - ExifTool：用於更新輸出圖像的元數據。
 
 ### 使用方法
 - ```pip install -r requirements.txt```
+- 安裝hugin後將hugin加進系統的環境變數中，若是預設的話應該是```C:\Program Files\Hugin\bin\```
 - 使用環境：
   - python 3.11.7 (in conda //不影響)
   - no other else

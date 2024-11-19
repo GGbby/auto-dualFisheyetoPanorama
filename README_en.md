@@ -52,6 +52,7 @@ The following tools were used during development. For simply running the program
 - ExifTool: Used to update metadata of the output images.
 ### Usage introduction
 - ```pip install -r requirements.txt```
+- After installing Hugin, set it into the environment variables. If it goes with default, it should be ```C:\Program Files\Hugin\bin\```
 - Environment:
   - Python 3.11.7 (using conda is optional and doesn't affect functionality)
   - No other requirements
