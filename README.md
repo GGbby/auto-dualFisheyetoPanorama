@@ -17,6 +17,7 @@
 │  main.py
 │  README.md
 │  requirements.txt
+│  leftright_split.py // 一個讓你將左右在同一個影像拆成兩個的工具
 │
 ├─cache_LR
 ├─fishcam_input

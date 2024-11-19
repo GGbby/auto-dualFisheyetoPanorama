@@ -17,6 +17,7 @@ This project is designed to automatically process dual-fisheye images and genera
 │  main.py
 │  README.md
 │  requirements.txt
+│  leftright_split.py // a tool to split a leftright image in one image
 │
 ├─cache_LR
 ├─fishcam_input
